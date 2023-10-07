@@ -19,9 +19,12 @@
   } */
 
   .logo {
-    width: 120px; 
+    width: 180px; 
   }
   
+  #home {
+    color: red;
+  }
 
   .navbar-right {
     list-style: none;

@@ -7,7 +7,7 @@ function HomePage() {
     <div className="image">
       <div className="animation">
         <TypeAnimation
-          sequence={["Elan & nVision", 3500,"IIT HYDERABAD" , 3500]}
+          sequence={["Elan & ηVision", 3500,"" , 500]}
           speed={320}
           cursor={false} // omit the default css typing animation class
           className="type"
@@ -17,6 +17,7 @@ function HomePage() {
       <p className='short-desc'>
       Elan & ηVision is the annual techno-cultural fest of IIT Hyderabad and is one of the largest fests in South India. It is entirely organized by IITH students.    </p>
     </div>
+    
   );
 }
 

@@ -1,0 +1,49 @@
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5%; */
+    width: 100%;
+    height: 115vh;
+   /* z-index: 1; */
+   /* padding: 0; */
+   position: relative;
+   top: -150px;
+   background-size: cover;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.714), rgba(0, 0, 0, 0.56)), url("https://i0.wp.com/www.igniteengineers.com/wp-content/uploads/2019/02/3.png?ssl=1");
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    /* position: absolute;  */
+}
+
+.animation{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: rgb(255, 94, 0);
+    font-size:clamp(30px,7vw + 0.1rem,120px);
+}
+
+.image .short-desc{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+    font-size: clamp(10px,1.35vw + 0.1rem,50px);
+}
+
+.type::after {
+    content: '|';
+    animation: cursor 1.2s infinite step-start;
+    color: whitesmoke;
+  }
+   
+  @keyframes cursor {
+    50% {
+      opacity: 0;
+    }
+  }

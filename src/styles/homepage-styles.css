@@ -1,5 +1,6 @@
 .image{
     display: flex;
+    margin-bottom: 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -44,6 +45,38 @@
     animation: cursor 1.2s infinite step-start;
     color: whitesmoke;
   }
+
+  .about-us {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .about-img1 {
+    margin: 4%;
+  }
+
+  .about-img2 {
+    margin: 4%;
+  }
+
+  .imagesOfSponsors {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .imagesOfSponsors > .pic-container {
+    display: inline-block;
+  }
+
+.heading {
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     font-weight: 800;
+     margin-bottom: 96px;
+     font-size: 48px;
+}
    
   @keyframes cursor {
     50% {

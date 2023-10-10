@@ -8,11 +8,11 @@ import sbi from "../assets/SBI.png"
 
 const sponsors = [
     {img : airmeet},
-    {img : ntpc},
-    {img : lic},
     {img : honeywell},
     {img : sbi},
     {img : lt},
+    {img : ntpc},
+    {img : lic},
     {img : canara}
 ];
 

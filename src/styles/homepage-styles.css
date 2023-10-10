@@ -46,19 +46,39 @@
     color: whitesmoke;
   }
 
-  .about-us {
-    display: flex;
-    flex-direction: column;
+/* Style for the parent container */
+.about-us {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 48px;
+  /* width: 80%; */
+  align-items: center;
+  justify-content: center;
+  text-align: left; 
+  margin: 20px; /* Add some spacing between the two containers */
+  padding: 20px;
+  /* border: 1px solid #ddd;  */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  /* background-color: #f7f7f7;  */
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  */
+}
 
-  }
+/* Style for the text inside the container */
+.about-us p {
+  margin: 10px 0; /* Add spacing between paragraphs */
+  font-size: 24px;
+  line-height: 1.5;
+}
 
-  .about-img1 {
-    margin: 4%;
-  }
+/* Style for the images */
+.about-img1,
+.about-img2 {
+  max-width: 100%; /* Ensure images don't overflow the container */
+  height: auto;
+  border-radius: 5px; /* Rounded corners for images */
+  margin-bottom: 10px; /* Add spacing below images */
+}
 
-  .about-img2 {
-    margin: 4%;
-  }
 
   .imagesOfSponsors {
     margin-left: 4%;
@@ -71,12 +91,20 @@
 
 .heading {
      display: flex;
+     margin: auto;
+     padding: 12px;
      text-align: center;
      justify-content: center;
      font-weight: 800;
-     margin-bottom: 96px;
-     font-size: 48px;
+     margin-bottom: 64px;
+     margin-top: 120px;
+     font-size: 72px;
+     border-radius: 10px;
+     background-color: red;
+     max-width: fit-content;
+     /* color: azure; */
 }
+
    
   @keyframes cursor {
     50% {
